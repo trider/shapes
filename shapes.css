@@ -1,0 +1,30 @@
+p{
+    padding-top: 10px;
+    font-family: Verdana;
+    font-size:small;
+ }
+.circle { 
+    border-radius: 70px;
+    z-index:4;
+    position:fixed;
+}
+.square {
+    z-index:0;
+    position:fixed;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    height: 75px;
+    width: 75px;
+}
+.line {
+    z-index:0;
+    position:fixed;
+    border-color: black;
+    background: black;
+}
+#controls{
+    top: 400px;
+    z-index:4;
+    position:fixed;
+}

@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shapes 0.1</title>
+        <link href="shapes.css" rel="stylesheet">
+        
+        <!--Styles-->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+        <link rel="shortcut icon" href="ico/favicon.ico">
+        <!--<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">-->     
+    
+    </head>
+    <body>
+      <div class="navbar">
+        <div class="navbar-inner">
+          <div class="container" >
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </a>
+           <a class="brand" href="#">Shapes</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row-fluid">
+            <div class="span5" id="content"></div>
+            <div class="span3" id="paths">   
+                <h2>Path 1</h2>
+                <ol>
+                    <li id="c1p1">Server 1 to Server 2</li>
+                    <li id="c1p2">Server 2 to Server 3</li>
+                    <li id="c1p3">Server 3 to Server 4</li>
+                    <li id="c1p4">Server 4 to Server 1</li>
+                </ol>
+                <h2>Path 2</h2>
+                <ol>
+                    <li id="c2p1">Server 1 to Server 4</li>
+                    <li id="c2p2">Server 4 to Server 3</li>
+                    <li id="c2p3">Server 3 to Server 2</li>
+                    <li id="c2p4">Server 2 to Server 1</li>
+                </ol>
+            </div>
+        </div>
+           <div class="row" id="controls">
+            <button id="start" class="btn">Start</button>
+            <button id="stop" class="btn">Stop</button>
+        </div>
+        </div>
+       
+       
+      </div>  
+      <!--Scripts-->
+      <script src="jquery-1.10.2.min.js"></script>
+      <script src="shapes.js"></script>
+      <script src="/bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
+
+
+
